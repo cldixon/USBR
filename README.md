@@ -1,4 +1,4 @@
-# USBR
+# USBR: Hydroelectric Dams and Power Plants Dataset
 
 Web Scrape of the U.S. Bureau of Reclamation Hydroelectric dams and power plants data.
 
@@ -8,7 +8,7 @@ Link: [USBR plants & dams](https://usbr.gov/projects/)
 
 ### Summary
 
-The data is collected using R, and shows an effective methodology for web scraping using the `{purrr}` package. The key is to model your crawl as a dataframe (or **Tibble**), and use `{purrr}` to collect HTML and extract content while managing error with safe exception handling (ie. `{purrr::possibly()}`).
+The data is collected using R, and shows an effective methodology for web scraping using the `{purrr}` package. The key is to model your crawl as a dataframe (or **Tibble**), and use `{purrr}` to collect HTML and extract content while managing errors with safe exception handling (ie. `{purrr::possibly()}`).
 
 ### Details
 
