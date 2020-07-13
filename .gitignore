@@ -1,3 +1,8 @@
+# git ignore
+
+## images directory
+## zip archive included instead
 images/
 
+## remove this
 .DS_Store
