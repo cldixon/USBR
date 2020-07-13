@@ -8,7 +8,7 @@ Link: [USBR plants & dams](https://usbr.gov/projects/)
 
 ### Summary
 
-The data is collected using R, and shows an effective methodology for web scraping using the `{purrr}` package. The key is to model your crawl as a dataframe (or **Tibble**), and use `{purrr}` to collect HTML and extract content while managing errors with safe exception handling (ie. `{purrr::possibly()}`).
+The data is collected using R, and shows a methodology for web scraping using the `{purrr}` package. The key is to model your crawl as a dataframe (or **Tibble**), and use `{purrr}` to collect HTML and extract content (via `{rvest}`) while managing errors with safe exception handling (ie. `{purrr::possibly()}`).
 
 ### Details
 
